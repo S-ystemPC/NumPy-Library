@@ -1,6 +1,6 @@
 # day 1
 import numpy as np
-# print(np.__version__)
+print(np.__version__)
 
 a = np.array([2,4,5])
 print(a)

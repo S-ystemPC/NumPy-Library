@@ -19,3 +19,24 @@ print(a3[:,0])
 
 # To print 0'th row and all columns
 print(a3[0,:])
+
+# Transpose
+a4 = np.array([[1,2,3], [4,5,6]])
+print(a4.T)
+
+# Inverse
+a5 = np.array([[1,2], [3,4]])
+print(np.linalg.inv(a5))
+
+# Determinant
+a6 = np.array([[1,2], [3,4]])
+print(np.linalg.det(a6))
+
+# diagonal element
+a7 = np.array([[1,2], [3,4]])
+print(np.diag(a7))
+
+# printing diagonal matrix
+a8 = np.array([[1,2], [3,4]])
+c = np.diag(a8)
+print(np.diag(c))
