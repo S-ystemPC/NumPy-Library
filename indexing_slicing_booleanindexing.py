@@ -16,4 +16,20 @@ print(b3)
 print(b4)
 print(b5)
 
-#Boolean indexing
+# Boolean indexing
+a3 = np.array([[1,2], [3,4], [5,6]])
+print(a3)
+bool_index = a3 > 2
+print(bool_index)
+print(a3[bool_index])
+# Or
+print(a3[a3 > 2])
+
+# where 
+b6 = np.where(a3 > 2, a3, -1)
+print(b6)
+
+# fancy indexing
+a4 = np.array([10,19,30,41,50,61])
+b7 = [1,3,5]
+print(a4[b7])
