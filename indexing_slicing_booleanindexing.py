@@ -33,3 +33,6 @@ print(b6)
 a4 = np.array([10,19,30,41,50,61])
 b7 = [1,3,5]
 print(a4[b7])
+# Use case of fancy indexing
+even = np.argwhere(a4 % 2 == 0).flatten()
+print(a4[even])
